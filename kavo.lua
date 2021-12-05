@@ -1389,12 +1389,12 @@ function Kavo.CreateLib(kavName, themeList)
                             sliderElement.BackgroundColor3 = themeList.ElementColor
                         end
                         moreInfo.TextColor3 = themeList.TextColor
-                        moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                        moreInfo.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
                         val.TextColor3 = themeList.TextColor
                         write.ImageColor3 = themeList.SchemeColor
                         togName.TextColor3 = themeList.TextColor
                         viewInfo.ImageColor3 = themeList.SchemeColor
-                        sliderBtn.BackgroundColor3 = Color3.fromRGB(themeList.ElementColor.r * 255 + 5, themeList.ElementColor.g * 255 + 5, themeList.ElementColor.b * 255  + 5)
+                        sliderBtn.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
                         sliderDrag.BackgroundColor3 = themeList.SchemeColor
                     end
                 end)()

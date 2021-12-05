@@ -670,7 +670,7 @@ function Kavo.CreateLib(kavName, themeList)
                 btnInfo.Font = Enum.Font.GothamSemibold
                 btnInfo.Text = bname
                 btnInfo.RichText = true
-                btnInfo.TextColor3 = themeList.TextColor
+                btnInfo.TextColor3 = Color3.fromRGB(14, 14, 14)
                 Objects[btnInfo] = "TextColor3"
                 btnInfo.TextSize = 14.000
                 btnInfo.TextXAlignment = Enum.TextXAlignment.Left

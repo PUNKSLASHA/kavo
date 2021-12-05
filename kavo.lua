@@ -761,7 +761,7 @@ function Kavo.CreateLib(kavName, themeList)
                         end
                         viewInfo.ImageColor3 = themeList.SchemeColor
                         Sample.ImageColor3 = themeList.SchemeColor
-                        moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                        moreInfo.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
                         moreInfo.TextColor3 = themeList.TextColor
                         touch.ImageColor3 = themeList.SchemeColor
                         btnInfo.TextColor3 = themeList.TextColor

@@ -1669,7 +1669,7 @@ function Kavo.CreateLib(kavName, themeList)
                         Sample.ImageColor3 = themeList.SchemeColor
                         dropFrame.BackgroundColor3 = themeList.Background
                         listImg.ImageColor3 = themeList.SchemeColor
-                        itemTextbox.TextColor3 = themeList.TextColor
+                        itemTextbox.TextColor3 = Color3.fromRGB(0, 110, 255)
                         viewInfo.ImageColor3 = themeList.SchemeColor
                         moreInfo.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
                         moreInfo.TextColor3 = themeList.TextColor

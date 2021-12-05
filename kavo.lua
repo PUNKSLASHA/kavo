@@ -833,7 +833,7 @@ function Kavo.CreateLib(kavName, themeList)
                 TextBox.ZIndex = 99
                 TextBox.ClearTextOnFocus = false
                 TextBox.Font = Enum.Font.Gotham
-                TextBox.PlaceholderColor3 = Color3.fromRGB(0, 110, 255)
+                TextBox.PlaceholderColor3 = themeList.SchemeColor
                 TextBox.PlaceholderText = "Hat Name"
                 TextBox.Text = ""
                 TextBox.TextColor3 = themeList.SchemeColor
@@ -964,7 +964,7 @@ function Kavo.CreateLib(kavName, themeList)
                         moreInfo.TextColor3 = themeList.TextColor
                         write.ImageColor3 = themeList.SchemeColor
                         togName.TextColor3 = themeList.TextColor
-                        TextBox.PlaceholderColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 19, themeList.SchemeColor.g * 255 - 26, themeList.SchemeColor.b * 255 - 35)
+                        TextBox.PlaceholderColor3 = themeList.SchemeColor
                         TextBox.TextColor3 = themeList.SchemeColor
                     end
                 end)()

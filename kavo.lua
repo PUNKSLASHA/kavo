@@ -638,7 +638,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Font = Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..tipINf
                 moreInfo.RichText = true
-                moreInfo.TextColor3 = themeList.TextColor
+                moreInfo.TextColor3 = Color3.fromRGB(14, 14, 14)
                 Objects[moreInfo] = "TextColor3"
                 moreInfo.TextSize = 14.000
                 moreInfo.TextXAlignment = Enum.TextXAlignment.Left

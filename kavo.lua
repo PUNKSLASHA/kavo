@@ -70,11 +70,11 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(224, 224, 224)
     },
-    BloodTheme = {
-        SchemeColor = Color3.fromRGB(227, 27, 27),
+    OceanTheme = {
+        SchemeColor = Color3.fromRGB(0, 110, 255),
         Background = Color3.fromRGB(10, 10, 10),
         Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,255,255),
+        TextColor = Color3.fromRGB(0, 110, 255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     GrapeTheme = {
@@ -85,18 +85,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(74, 58, 84)
     },
     Ocean = {
-        SchemeColor = Color3.fromRGB(0, 61, 141),
-        Background = Color3.fromRGB(21, 21, 21),
-        Header = Color3.fromRGB(7, 7, 7),
-        TextColor = Color3.fromRGB(0, 110, 255),
-        ElementColor = Color3.fromRGB(14, 14, 14)
-    },
-    Ocean2 = {
-        SchemeColor = Color3.fromRGB(0, 61, 141),
-        Background = Color3.fromRGB(21, 21, 21),
-        Header = Color3.fromRGB(7, 7, 7),
-        TextColor = Color3.fromRGB(0, 110, 255),
-        ElementColor = Color3.fromRGB(14, 14, 14)
+        SchemeColor = Color3.fromRGB(86, 76, 251),
+        Background = Color3.fromRGB(26, 32, 58),
+        Header = Color3.fromRGB(38, 45, 71),
+        TextColor = Color3.fromRGB(200, 200, 200),
+        ElementColor = Color3.fromRGB(38, 45, 71)
     },
     Midnight = {
         SchemeColor = Color3.fromRGB(26, 189, 158),
@@ -162,7 +155,7 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.DarkTheme
     elseif themeList == "LightTheme" then
         themeList = themeStyles.LightTheme
-    elseif themeList == "BloodTheme" then
+    elseif themeList == "OceanTheme" then
         themeList = themeStyles.BloodTheme
     elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
@@ -174,8 +167,6 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Sentinel
     elseif themeList == "Synapse" then
         themeList = themeStyles.Synapse
-    elseif themeList == "Ocean2" then
-	themeList = themeStyles.Ocean2
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
     else
